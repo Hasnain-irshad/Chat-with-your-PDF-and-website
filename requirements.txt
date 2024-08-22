@@ -7,24 +7,3 @@ sentence-transformers==2.2.2
 faiss-cpu==1.7.4
 beautifulsoup4==4.12.2
 requests==2.31.0
-
-
-Explanation:
-streamlit: For building the web application interface.
-transformers: For handling pre-trained models and tokenizers from Hugging Face.
-torch: Required for running models in PyTorch.
-langchain: For document processing and retrieval tasks.
-pdfminer.six: For extracting text from PDF files.
-sentence-transformers: For sentence embeddings, used in the FAISS vector store.
-faiss-cpu: For the FAISS vector database to handle similarity search.
-beautifulsoup4: For web scraping and HTML parsing.
-requests: For making HTTP requests to fetch website content.
-To create or update your requirements.txt file:
-
-Create a file named requirements.txt in your project directory if it doesn’t already exist.
-Add the list of packages above to this file.
-To install the dependencies from requirements.txt, use the following command:
-
-pip install -r requirements.txt
-
-This will ensure that all necessary packages are installed with compatible versions for your application.
